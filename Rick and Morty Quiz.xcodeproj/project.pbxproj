@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157CD2B120CAD20500C19FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2B020CAD20500C19FB1 /* AppDelegate.swift */; };
+		157CD2B320CAD20500C19FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2B220CAD20500C19FB1 /* ViewController.swift */; };
+		157CD2B620CAD20500C19FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B420CAD20500C19FB1 /* Main.storyboard */; };
+		157CD2B820CAD20600C19FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B720CAD20600C19FB1 /* Assets.xcassets */; };
+		157CD2BB20CAD20600C19FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */; };
+		157CD2C620CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2C520CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		157CD2C220CAD20600C19FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157CD2A520CAD20500C19FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157CD2AC20CAD20500C19FB1;
+			remoteInfo = "Rick and Morty Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		157CD2AD20CAD20500C19FB1 /* Rick and Morty Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157CD2B020CAD20500C19FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		157CD2B220CAD20500C19FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		157CD2B520CAD20500C19FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		157CD2B720CAD20600C19FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		157CD2BA20CAD20600C19FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		157CD2BC20CAD20600C19FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157CD2C120CAD20600C19FB1 /* Rick and Morty QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rick and Morty QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157CD2C520CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_and_Morty_QuizTests.swift; sourceTree = "<group>"; };
+		157CD2C720CAD20600C19FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157CD2AA20CAD20500C19FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157CD2BE20CAD20600C19FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157CD2A420CAD20500C19FB1 = {
+			isa = PBXGroup;
+			children = (
+				157CD2AF20CAD20500C19FB1 /* Rick and Morty Quiz */,
+				157CD2C420CAD20600C19FB1 /* Rick and Morty QuizTests */,
+				157CD2AE20CAD20500C19FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		157CD2AE20CAD20500C19FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2AD20CAD20500C19FB1 /* Rick and Morty Quiz.app */,
+				157CD2C120CAD20600C19FB1 /* Rick and Morty QuizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157CD2AF20CAD20500C19FB1 /* Rick and Morty Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2B020CAD20500C19FB1 /* AppDelegate.swift */,
+				157CD2B220CAD20500C19FB1 /* ViewController.swift */,
+				157CD2B420CAD20500C19FB1 /* Main.storyboard */,
+				157CD2B720CAD20600C19FB1 /* Assets.xcassets */,
+				157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */,
+				157CD2BC20CAD20600C19FB1 /* Info.plist */,
+			);
+			path = "Rick and Morty Quiz";
+			sourceTree = "<group>";
+		};
+		157CD2C420CAD20600C19FB1 /* Rick and Morty QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2C520CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift */,
+				157CD2C720CAD20600C19FB1 /* Info.plist */,
+			);
+			path = "Rick and Morty QuizTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157CD2AC20CAD20500C19FB1 /* Rick and Morty Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157CD2CA20CAD20600C19FB1 /* Build configuration list for PBXNativeTarget "Rick and Morty Quiz" */;
+			buildPhases = (
+				157CD2A920CAD20500C19FB1 /* Sources */,
+				157CD2AA20CAD20500C19FB1 /* Frameworks */,
+				157CD2AB20CAD20500C19FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rick and Morty Quiz";
+			productName = "Rick and Morty Quiz";
+			productReference = 157CD2AD20CAD20500C19FB1 /* Rick and Morty Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		157CD2C020CAD20600C19FB1 /* Rick and Morty QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157CD2CD20CAD20600C19FB1 /* Build configuration list for PBXNativeTarget "Rick and Morty QuizTests" */;
+			buildPhases = (
+				157CD2BD20CAD20600C19FB1 /* Sources */,
+				157CD2BE20CAD20600C19FB1 /* Frameworks */,
+				157CD2BF20CAD20600C19FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157CD2C320CAD20600C19FB1 /* PBXTargetDependency */,
+			);
+			name = "Rick and Morty QuizTests";
+			productName = "Rick and Morty QuizTests";
+			productReference = 157CD2C120CAD20600C19FB1 /* Rick and Morty QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		157CD2A520CAD20500C19FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jason Kuan";
+				TargetAttributes = {
+					157CD2AC20CAD20500C19FB1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					157CD2C020CAD20600C19FB1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 157CD2AC20CAD20500C19FB1;
+					};
+				};
+			};
+			buildConfigurationList = 157CD2A820CAD20500C19FB1 /* Build configuration list for PBXProject "Rick and Morty Quiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 157CD2A420CAD20500C19FB1;
+			productRefGroup = 157CD2AE20CAD20500C19FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157CD2AC20CAD20500C19FB1 /* Rick and Morty Quiz */,
+				157CD2C020CAD20600C19FB1 /* Rick and Morty QuizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157CD2AB20CAD20500C19FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157CD2BB20CAD20600C19FB1 /* LaunchScreen.storyboard in Resources */,
+				157CD2B820CAD20600C19FB1 /* Assets.xcassets in Resources */,
+				157CD2B620CAD20500C19FB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157CD2BF20CAD20600C19FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157CD2A920CAD20500C19FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157CD2B320CAD20500C19FB1 /* ViewController.swift in Sources */,
+				157CD2B120CAD20500C19FB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157CD2BD20CAD20600C19FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157CD2C620CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		157CD2C320CAD20600C19FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157CD2AC20CAD20500C19FB1 /* Rick and Morty Quiz */;
+			targetProxy = 157CD2C220CAD20600C19FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		157CD2B420CAD20500C19FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157CD2B520CAD20500C19FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157CD2BA20CAD20600C19FB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157CD2C820CAD20600C19FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		157CD2C920CAD20600C19FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157CD2CB20CAD20600C19FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7X37PRA8F;
+				INFOPLIST_FILE = "Rick and Morty Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		157CD2CC20CAD20600C19FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7X37PRA8F;
+				INFOPLIST_FILE = "Rick and Morty Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		157CD2CE20CAD20600C19FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7X37PRA8F;
+				INFOPLIST_FILE = "Rick and Morty QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rick and Morty Quiz.app/Rick and Morty Quiz";
+			};
+			name = Debug;
+		};
+		157CD2CF20CAD20600C19FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7X37PRA8F;
+				INFOPLIST_FILE = "Rick and Morty QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rick and Morty Quiz.app/Rick and Morty Quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		157CD2A820CAD20500C19FB1 /* Build configuration list for PBXProject "Rick and Morty Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157CD2C820CAD20600C19FB1 /* Debug */,
+				157CD2C920CAD20600C19FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157CD2CA20CAD20600C19FB1 /* Build configuration list for PBXNativeTarget "Rick and Morty Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157CD2CB20CAD20600C19FB1 /* Debug */,
+				157CD2CC20CAD20600C19FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157CD2CD20CAD20600C19FB1 /* Build configuration list for PBXNativeTarget "Rick and Morty QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157CD2CE20CAD20600C19FB1 /* Debug */,
+				157CD2CF20CAD20600C19FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 157CD2A520CAD20500C19FB1 /* Project object */;
+}
