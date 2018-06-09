@@ -61,6 +61,8 @@
 			children = (
 				157CD2AF20CAD20500C19FB1 /* Rick and Morty Quiz */,
 				157CD2C420CAD20600C19FB1 /* Rick and Morty QuizTests */,
+				157CD2D520CAF9E800C19FB1 /* Core iOS */,
+				157CD2D620CAFA1B00C19FB1 /* Company Core Tests */,
 				157CD2AE20CAD20500C19FB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,12 +79,10 @@
 		157CD2AF20CAD20500C19FB1 /* Rick and Morty Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				157CD2B020CAD20500C19FB1 /* AppDelegate.swift */,
-				157CD2B220CAD20500C19FB1 /* ViewController.swift */,
-				157CD2B420CAD20500C19FB1 /* Main.storyboard */,
+				157CD2DA20CBD5B900C19FB1 /* Application */,
+				157CD2D020CAD24D00C19FB1 /* Common */,
+				157CD2D120CAD25800C19FB1 /* Screens */,
 				157CD2B720CAD20600C19FB1 /* Assets.xcassets */,
-				157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */,
-				157CD2BC20CAD20600C19FB1 /* Info.plist */,
 			);
 			path = "Rick and Morty Quiz";
 			sourceTree = "<group>";
@@ -94,6 +94,78 @@
 				157CD2C720CAD20600C19FB1 /* Info.plist */,
 			);
 			path = "Rick and Morty QuizTests";
+			sourceTree = "<group>";
+		};
+		157CD2D020CAD24D00C19FB1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2D220CAD28800C19FB1 /* Clean Architecture */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		157CD2D120CAD25800C19FB1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */,
+				157CD2D320CAD2AD00C19FB1 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		157CD2D220CAD28800C19FB1 /* Clean Architecture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Clean Architecture";
+			sourceTree = "<group>";
+		};
+		157CD2D320CAD2AD00C19FB1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2B420CAD20500C19FB1 /* Main.storyboard */,
+				157CD2B220CAD20500C19FB1 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		157CD2D420CAD31C00C19FB1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		157CD2D520CAF9E800C19FB1 /* Core iOS */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2D720CB01D900C19FB1 /* Sources */,
+			);
+			path = "Core iOS";
+			sourceTree = "<group>";
+		};
+		157CD2D620CAFA1B00C19FB1 /* Company Core Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Company Core Tests";
+			sourceTree = "<group>";
+		};
+		157CD2D720CB01D900C19FB1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2D420CAD31C00C19FB1 /* Network */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		157CD2DA20CBD5B900C19FB1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2B020CAD20500C19FB1 /* AppDelegate.swift */,
+				157CD2BC20CAD20600C19FB1 /* Info.plist */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,7 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
-				INFOPLIST_FILE = "Rick and Morty Quiz/Info.plist";
+				INFOPLIST_FILE = "Rick and Morty Quiz/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
-				INFOPLIST_FILE = "Rick and Morty Quiz/Info.plist";
+				INFOPLIST_FILE = "Rick and Morty Quiz/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
