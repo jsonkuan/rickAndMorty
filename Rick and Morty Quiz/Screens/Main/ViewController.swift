@@ -7,19 +7,22 @@
 //
 
 import UIKit
+import CompanyCore_iOS
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, HasDependencies {
 
+	@IBOutlet weak var testRequestTextField: UITextField!
+	
+	private lazy var worker: RickNMortyService = dependencies.resolveWorker()
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		worker.getCharacters(with: "20") {
+			print("SUCCESS")
+			self.testRequestTextField.text = "Rick N Morty"
+		}
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
 
 }
 
