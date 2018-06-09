@@ -13,6 +13,9 @@
 		157CD2B820CAD20600C19FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B720CAD20600C19FB1 /* Assets.xcassets */; };
 		157CD2BB20CAD20600C19FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */; };
 		157CD2C620CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2C520CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift */; };
+		157CD2DC20CBDA2500C19FB1 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2DB20CBDA2500C19FB1 /* HTTPService.swift */; };
+		6C83F07E666BECC388BD0694 /* Pods_Rick_and_Morty_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A2D18884F41E0412344B1 /* Pods_Rick_and_Morty_QuizTests.framework */; };
+		D2DB2A6D999B11DC890E8531 /* Pods_Rick_and_Morty_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615C1FE6134ECAACF6B683B2 /* Pods_Rick_and_Morty_Quiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C4760268A699089881A258 /* Pods-Rick and Morty QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty QuizTests/Pods-Rick and Morty QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
 		157CD2AD20CAD20500C19FB1 /* Rick and Morty Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157CD2B020CAD20500C19FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		157CD2B220CAD20500C19FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,12 @@
 		157CD2C120CAD20600C19FB1 /* Rick and Morty QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rick and Morty QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157CD2C520CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_and_Morty_QuizTests.swift; sourceTree = "<group>"; };
 		157CD2C720CAD20600C19FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157CD2DB20CBDA2500C19FB1 /* HTTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		615C1FE6134ECAACF6B683B2 /* Pods_Rick_and_Morty_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rick_and_Morty_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680E98E81030E4684BB079C2 /* Pods-Rick and Morty Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty Quiz/Pods-Rick and Morty Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7A2D18884F41E0412344B1 /* Pods_Rick_and_Morty_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rick_and_Morty_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08FF08B6561F346F72F2EC6 /* Pods-Rick and Morty Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty Quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty Quiz/Pods-Rick and Morty Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		D3FC692DC430027D2E574CBB /* Pods-Rick and Morty QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty QuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty QuizTests/Pods-Rick and Morty QuizTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DB2A6D999B11DC890E8531 /* Pods_Rick_and_Morty_Quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C83F07E666BECC388BD0694 /* Pods_Rick_and_Morty_QuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +76,8 @@
 				157CD2D520CAF9E800C19FB1 /* Core iOS */,
 				157CD2D620CAFA1B00C19FB1 /* Company Core Tests */,
 				157CD2AE20CAD20500C19FB1 /* Products */,
+				7F72687B97BBBEEE09A60BFC /* Pods */,
+				41D3359652643139071D0BA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +146,7 @@
 		157CD2D420CAD31C00C19FB1 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				157CD2DB20CBDA2500C19FB1 /* HTTPService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -168,6 +183,26 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		41D3359652643139071D0BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				615C1FE6134ECAACF6B683B2 /* Pods_Rick_and_Morty_Quiz.framework */,
+				CE7A2D18884F41E0412344B1 /* Pods_Rick_and_Morty_QuizTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F72687B97BBBEEE09A60BFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				680E98E81030E4684BB079C2 /* Pods-Rick and Morty Quiz.debug.xcconfig */,
+				D08FF08B6561F346F72F2EC6 /* Pods-Rick and Morty Quiz.release.xcconfig */,
+				04C4760268A699089881A258 /* Pods-Rick and Morty QuizTests.debug.xcconfig */,
+				D3FC692DC430027D2E574CBB /* Pods-Rick and Morty QuizTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 157CD2CA20CAD20600C19FB1 /* Build configuration list for PBXNativeTarget "Rick and Morty Quiz" */;
 			buildPhases = (
+				5DF19B8BC71BE82E6B10E12C /* [CP] Check Pods Manifest.lock */,
 				157CD2A920CAD20500C19FB1 /* Sources */,
 				157CD2AA20CAD20500C19FB1 /* Frameworks */,
 				157CD2AB20CAD20500C19FB1 /* Resources */,
+				49DCFD8DB1983772922E35F3 /* [CP] Embed Pods Frameworks */,
+				C1355FDFACD9E6A15734A8AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 157CD2CD20CAD20600C19FB1 /* Build configuration list for PBXNativeTarget "Rick and Morty QuizTests" */;
 			buildPhases = (
+				129FD9349565F924EBC3FCBB /* [CP] Check Pods Manifest.lock */,
 				157CD2BD20CAD20600C19FB1 /* Sources */,
 				157CD2BE20CAD20600C19FB1 /* Frameworks */,
 				157CD2BF20CAD20600C19FB1 /* Resources */,
+				D4A6D57550DB5391CC04406A /* [CP] Embed Pods Frameworks */,
+				4F89A2346B0F3CD8EC429CAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,11 +305,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		129FD9349565F924EBC3FCBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rick and Morty QuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49DCFD8DB1983772922E35F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Quiz/Pods-Rick and Morty Quiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Quiz/Pods-Rick and Morty Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F89A2346B0F3CD8EC429CAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty QuizTests/Pods-Rick and Morty QuizTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF19B8BC71BE82E6B10E12C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rick and Morty Quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1355FDFACD9E6A15734A8AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Quiz/Pods-Rick and Morty Quiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A6D57550DB5391CC04406A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty QuizTests/Pods-Rick and Morty QuizTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		157CD2A920CAD20500C19FB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157CD2DC20CBDA2500C19FB1 /* HTTPService.swift in Sources */,
 				157CD2B320CAD20500C19FB1 /* ViewController.swift in Sources */,
 				157CD2B120CAD20500C19FB1 /* AppDelegate.swift in Sources */,
 			);
@@ -428,15 +572,13 @@
 		};
 		157CD2CB20CAD20600C19FB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 680E98E81030E4684BB079C2 /* Pods-Rick and Morty Quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
 				INFOPLIST_FILE = "Rick and Morty Quiz/Application/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +588,13 @@
 		};
 		157CD2CC20CAD20600C19FB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08FF08B6561F346F72F2EC6 /* Pods-Rick and Morty Quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
 				INFOPLIST_FILE = "Rick and Morty Quiz/Application/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-Quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +604,14 @@
 		};
 		157CD2CE20CAD20600C19FB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C4760268A699089881A258 /* Pods-Rick and Morty QuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
 				INFOPLIST_FILE = "Rick and Morty QuizTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-QuizTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +622,14 @@
 		};
 		157CD2CF20CAD20600C19FB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FC692DC430027D2E574CBB /* Pods-Rick and Morty QuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
 				INFOPLIST_FILE = "Rick and Morty QuizTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.Rick-and-Morty-QuizTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
