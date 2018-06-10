@@ -9,18 +9,16 @@
 import Foundation
 
 open class CoreDependency: Dependency {
-	
+
 	public init() { }
 	
 	open func resolveService() -> HTTPService {
 		return HTTPService()
 	}
 	
-	open func resolveWorker() -> RickNMortyService {
-		return RickNMortyNetworkService(
+	open func resolveWorker() -> APIService {
+		return APINetworkService(
 			httpService: resolveService()
 		)
 	}
-	
-
 }

@@ -10,7 +10,10 @@
 // MARK: - Acts as a container to house all dependencies
 
 public protocol Dependency {
+	
 	func resolveService() -> HTTPService
 	
-	func resolveWorker() -> RickNMortyService
+	func resolveWorker() -> APIService
+	
+//	func resolveService() -> InterfaceSample
 }

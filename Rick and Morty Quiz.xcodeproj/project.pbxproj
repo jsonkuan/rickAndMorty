@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1510837420CC30D500A0ADBA /* SampleNetworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD31920CC2A5800C19FB1 /* SampleNetworkStore.swift */; };
+		1510837520CC30D500A0ADBA /* InterfaceSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD31720CC29EB00C19FB1 /* InterfaceSample.swift */; };
+		1510837620CC30D500A0ADBA /* SampleWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD31B20CC2D9000C19FB1 /* SampleWorker.swift */; };
+		1510837920CC40ED00A0ADBA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510837820CC40ED00A0ADBA /* Character.swift */; };
+		1510837B20CC778800A0ADBA /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510837A20CC778800A0ADBA /* Episode.swift */; };
+		1510838020CC7B8100A0ADBA /* CharactersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510837F20CC7B8100A0ADBA /* CharactersTableViewController.swift */; };
+		1510838220CC833A00A0ADBA /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1510838120CC833A00A0ADBA /* CharacterTableViewCell.swift */; };
 		157CD2B120CAD20500C19FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2B020CAD20500C19FB1 /* AppDelegate.swift */; };
-		157CD2B320CAD20500C19FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2B220CAD20500C19FB1 /* ViewController.swift */; };
+		157CD2B320CAD20500C19FB1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2B220CAD20500C19FB1 /* MainViewController.swift */; };
 		157CD2B620CAD20500C19FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B420CAD20500C19FB1 /* Main.storyboard */; };
 		157CD2B820CAD20600C19FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B720CAD20600C19FB1 /* Assets.xcassets */; };
 		157CD2BB20CAD20600C19FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */; };
 		157CD2C620CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2C520CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift */; };
 		157CD2DC20CBDA2500C19FB1 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2DB20CBDA2500C19FB1 /* HTTPService.swift */; };
-		157CD2E020CBDEF800C19FB1 /* RickNMortyNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2DF20CBDEF800C19FB1 /* RickNMortyNetworkService.swift */; };
-		157CD2E220CBDF6700C19FB1 /* RickMortyAPIInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2E120CBDF6700C19FB1 /* RickMortyAPIInterface.swift */; };
+		157CD2E020CBDEF800C19FB1 /* APINetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2DF20CBDEF800C19FB1 /* APINetworkService.swift */; };
+		157CD2E220CBDF6700C19FB1 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2E120CBDF6700C19FB1 /* APIServiceProtocol.swift */; };
 		157CD2E520CBE09D00C19FB1 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2E420CBE09D00C19FB1 /* Dependency.swift */; };
 		157CD2E720CBE10400C19FB1 /* CoreDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2E620CBE10400C19FB1 /* CoreDependency.swift */; };
 		157CD2EA20CBE8EF00C19FB1 /* HasDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD2E920CBE8EF00C19FB1 /* HasDependencies.swift */; };
@@ -77,9 +84,13 @@
 
 /* Begin PBXFileReference section */
 		04C4760268A699089881A258 /* Pods-Rick and Morty QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty QuizTests/Pods-Rick and Morty QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1510837820CC40ED00A0ADBA /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		1510837A20CC778800A0ADBA /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		1510837F20CC7B8100A0ADBA /* CharactersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewController.swift; sourceTree = "<group>"; };
+		1510838120CC833A00A0ADBA /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 		157CD2AD20CAD20500C19FB1 /* Rick and Morty Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157CD2B020CAD20500C19FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		157CD2B220CAD20500C19FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		157CD2B220CAD20500C19FB1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		157CD2B520CAD20500C19FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		157CD2B720CAD20600C19FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157CD2BA20CAD20600C19FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,8 +99,8 @@
 		157CD2C520CAD20600C19FB1 /* Rick_and_Morty_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_and_Morty_QuizTests.swift; sourceTree = "<group>"; };
 		157CD2C720CAD20600C19FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		157CD2DB20CBDA2500C19FB1 /* HTTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
-		157CD2DF20CBDEF800C19FB1 /* RickNMortyNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyNetworkService.swift; sourceTree = "<group>"; };
-		157CD2E120CBDF6700C19FB1 /* RickMortyAPIInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAPIInterface.swift; sourceTree = "<group>"; };
+		157CD2DF20CBDEF800C19FB1 /* APINetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetworkService.swift; sourceTree = "<group>"; };
+		157CD2E120CBDF6700C19FB1 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
 		157CD2E420CBE09D00C19FB1 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 		157CD2E620CBE10400C19FB1 /* CoreDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDependency.swift; sourceTree = "<group>"; };
 		157CD2E920CBE8EF00C19FB1 /* HasDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasDependencies.swift; sourceTree = "<group>"; };
@@ -101,6 +112,9 @@
 		157CD2FF20CC13AF00C19FB1 /* CompanyCore iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CompanyCore iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		157CD30620CC13B000C19FB1 /* CompanyCore_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCore_iOSTests.swift; sourceTree = "<group>"; };
 		157CD30820CC13B000C19FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157CD31720CC29EB00C19FB1 /* InterfaceSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSample.swift; sourceTree = "<group>"; };
+		157CD31920CC2A5800C19FB1 /* SampleNetworkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNetworkStore.swift; sourceTree = "<group>"; };
+		157CD31B20CC2D9000C19FB1 /* SampleWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWorker.swift; sourceTree = "<group>"; };
 		615C1FE6134ECAACF6B683B2 /* Pods_Rick_and_Morty_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rick_and_Morty_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		680E98E81030E4684BB079C2 /* Pods-Rick and Morty Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty Quiz/Pods-Rick and Morty Quiz.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7A2D18884F41E0412344B1 /* Pods_Rick_and_Morty_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rick_and_Morty_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +158,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1510837720CC40B300A0ADBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1510837820CC40ED00A0ADBA /* Character.swift */,
+				1510837A20CC778800A0ADBA /* Episode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1510837C20CC793100A0ADBA /* List Characters */ = {
+			isa = PBXGroup;
+			children = (
+				1510837F20CC7B8100A0ADBA /* CharactersTableViewController.swift */,
+				1510838120CC833A00A0ADBA /* CharacterTableViewCell.swift */,
+			);
+			path = "List Characters";
+			sourceTree = "<group>";
+		};
 		157CD2A420CAD20500C19FB1 = {
 			isa = PBXGroup;
 			children = (
@@ -172,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				157CD2DA20CBD5B900C19FB1 /* Application */,
-				157CD2D020CAD24D00C19FB1 /* Common */,
 				157CD2D120CAD25800C19FB1 /* Screens */,
 				157CD2B720CAD20600C19FB1 /* Assets.xcassets */,
 			);
@@ -188,35 +219,22 @@
 			path = "Rick and Morty QuizTests";
 			sourceTree = "<group>";
 		};
-		157CD2D020CAD24D00C19FB1 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				157CD2D220CAD28800C19FB1 /* Clean Architecture */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		157CD2D120CAD25800C19FB1 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1510837720CC40B300A0ADBA /* Model */,
 				157CD2B920CAD20600C19FB1 /* LaunchScreen.storyboard */,
 				157CD2D320CAD2AD00C19FB1 /* Main */,
+				1510837C20CC793100A0ADBA /* List Characters */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		157CD2D220CAD28800C19FB1 /* Clean Architecture */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Clean Architecture";
 			sourceTree = "<group>";
 		};
 		157CD2D320CAD2AD00C19FB1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				157CD2B420CAD20500C19FB1 /* Main.storyboard */,
-				157CD2B220CAD20500C19FB1 /* ViewController.swift */,
+				157CD2B220CAD20500C19FB1 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -224,7 +242,7 @@
 		157CD2D420CAD31C00C19FB1 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				157CD2DB20CBDA2500C19FB1 /* HTTPService.swift */,
+				157CD31520CC296E00C19FB1 /* Service */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -234,7 +252,7 @@
 			children = (
 				157CD2E320CBE08500C19FB1 /* Dependencies */,
 				157CD2D420CAD31C00C19FB1 /* Network */,
-				157CD2DE20CBDE8500C19FB1 /* Storage */,
+				157CD31620CC298D00C19FB1 /* Sample */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -247,16 +265,6 @@
 				157CD2BC20CAD20600C19FB1 /* Info.plist */,
 			);
 			path = Application;
-			sourceTree = "<group>";
-		};
-		157CD2DE20CBDE8500C19FB1 /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-				157CD2DF20CBDEF800C19FB1 /* RickNMortyNetworkService.swift */,
-				157CD2ED20CBF21900C19FB1 /* RickNMortyWorker.swift */,
-				157CD2E120CBDF6700C19FB1 /* RickMortyAPIInterface.swift */,
-			);
-			path = Storage;
 			sourceTree = "<group>";
 		};
 		157CD2E320CBE08500C19FB1 /* Dependencies */ = {
@@ -286,6 +294,27 @@
 				157CD30820CC13B000C19FB1 /* Info.plist */,
 			);
 			path = "CompanyCore iOSTests";
+			sourceTree = "<group>";
+		};
+		157CD31520CC296E00C19FB1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				157CD2DB20CBDA2500C19FB1 /* HTTPService.swift */,
+				157CD2E120CBDF6700C19FB1 /* APIServiceProtocol.swift */,
+				157CD2DF20CBDEF800C19FB1 /* APINetworkService.swift */,
+				157CD2ED20CBF21900C19FB1 /* RickNMortyWorker.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		157CD31620CC298D00C19FB1 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				157CD31720CC29EB00C19FB1 /* InterfaceSample.swift */,
+				157CD31920CC2A5800C19FB1 /* SampleNetworkStore.swift */,
+				157CD31B20CC2D9000C19FB1 /* SampleWorker.swift */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 		41D3359652643139071D0BA5 /* Frameworks */ = {
@@ -421,6 +450,7 @@
 					};
 					157CD2F620CC13AF00C19FB1 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					157CD2FE20CC13AF00C19FB1 = {
 						CreatedOnToolsVersion = 9.4;
@@ -592,14 +622,21 @@
 			files = (
 				157CD2E520CBE09D00C19FB1 /* Dependency.swift in Sources */,
 				157CD2E720CBE10400C19FB1 /* CoreDependency.swift in Sources */,
-				157CD2E020CBDEF800C19FB1 /* RickNMortyNetworkService.swift in Sources */,
+				157CD2E020CBDEF800C19FB1 /* APINetworkService.swift in Sources */,
+				1510838020CC7B8100A0ADBA /* CharactersTableViewController.swift in Sources */,
 				157CD2EE20CBF21900C19FB1 /* RickNMortyWorker.swift in Sources */,
 				157CD2EA20CBE8EF00C19FB1 /* HasDependencies.swift in Sources */,
 				157CD2DC20CBDA2500C19FB1 /* HTTPService.swift in Sources */,
-				157CD2B320CAD20500C19FB1 /* ViewController.swift in Sources */,
+				157CD2B320CAD20500C19FB1 /* MainViewController.swift in Sources */,
+				1510837520CC30D500A0ADBA /* InterfaceSample.swift in Sources */,
+				1510837620CC30D500A0ADBA /* SampleWorker.swift in Sources */,
+				1510837920CC40ED00A0ADBA /* Character.swift in Sources */,
 				157CD2EC20CBE9D900C19FB1 /* AppDependency.swift in Sources */,
+				1510838220CC833A00A0ADBA /* CharacterTableViewCell.swift in Sources */,
 				157CD2B120CAD20500C19FB1 /* AppDelegate.swift in Sources */,
-				157CD2E220CBDF6700C19FB1 /* RickMortyAPIInterface.swift in Sources */,
+				1510837420CC30D500A0ADBA /* SampleNetworkStore.swift in Sources */,
+				1510837B20CC778800A0ADBA /* Episode.swift in Sources */,
+				157CD2E220CBDF6700C19FB1 /* APIServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,6 +907,7 @@
 		157CD31020CC13B000C19FB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -888,6 +926,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jsonkuan.CompanyCore-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -898,6 +937,7 @@
 		157CD31120CC13B000C19FB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -926,7 +966,6 @@
 		157CD31320CC13B000C19FB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
 				INFOPLIST_FILE = "CompanyCore iOSTests/Info.plist";
@@ -946,7 +985,6 @@
 		157CD31420CC13B000C19FB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7X37PRA8F;
 				INFOPLIST_FILE = "CompanyCore iOSTests/Info.plist";
